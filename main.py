@@ -3,8 +3,19 @@
 # age = input("How old are you?: ")
 # print(f"Привіт {name}, тобі {age}!")
 #///////////2//////////
-age = int(input("How old are you?: "))
-if age >= 18:
-    print("Вхід дозволено!")
-else:
-    print("Вхід заборонено!")
+# age = int(input("How old are you?: "))
+# if age >= 18:
+#     print("Вхід дозволено!")
+# else:
+#     print("Вхід заборонено!")
+#///////////3///////////
+from random import randint
+a = (randint(1,10))
+for i in range(3):
+    b = int(input("Your guess: "))
+    if b > a:
+        print("Менше")
+    elif b < a:
+        print("Більше")
+    else:
+        print("Correct!")
