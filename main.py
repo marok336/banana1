@@ -9,13 +9,18 @@
 # else:
 #     print("Вхід заборонено!")
 #///////////3///////////
-from random import randint
-a = (randint(1,10))
-for i in range(3):
-    b = int(input("Your guess: "))
-    if b > a:
-        print("Менше")
-    elif b < a:
-        print("Більше")
-    else:
-        print("Correct!")
+# from random import randint
+# a = (randint(1,10))
+# for i in range(3):
+#     b = int(input("Your guess: "))
+#     if b > a:
+#         print("Менше")
+#     elif b < a:
+#         print("Більше")
+#     else:
+#         print("Correct!")
+#//////////4/////////////
+a = int(input("Введіть перше число: "))
+b = int(input("Введіть друге число: "))
+for i in range(a, b + 1):
+    print(i)
