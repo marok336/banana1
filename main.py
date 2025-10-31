@@ -34,12 +34,27 @@
 # a = int(input("Введiть число: "))
 # print(math.factorial(a))
 #////////7///////////
-a = int(input("Скiльки ьалiв ви отримали?: "))
-if 0<=a<=49:
-    print("незадовільно")
-elif 50<=a<=69:
-    print("задовільно")
-elif 70<=a<=89:
-    print("добре")
-elif 90<=a<=100:
-    print("відмінно")
+# a = int(input("Скiльки ьалiв ви отримали?: "))
+# if 0<=a<=49:
+#     print("незадовільно")
+# elif 50<=a<=69:
+#     print("задовільно")
+# elif 70<=a<=89:
+#     print("добре")
+# elif 90<=a<=100:
+#     print("відмінно")
+#/////////8/////////////
+a=int(input("Введiть перше число: "))
+b=int(input("Введiть друге число: "))
+c=input("Введiть дiю: ")
+if c == '+':
+    print(a+b)
+elif c == '*':
+    print(a*b)
+elif c == '-':
+    print(a-b)
+elif c == '/':
+    if b != 0:
+        print(a/b)
+    else:
+        print("Ділення на нуль")
