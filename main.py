@@ -30,6 +30,16 @@
 #     if i % 2 == 0:
 #         print(i, end=' ')
 #////////6////////
-import math
-a = int(input("Введiть число: "))
-print(math.factorial(a))
+# import math
+# a = int(input("Введiть число: "))
+# print(math.factorial(a))
+#////////7///////////
+a = int(input("Скiльки ьалiв ви отримали?: "))
+if 0<=a<=49:
+    print("незадовільно")
+elif 50<=a<=69:
+    print("задовільно")
+elif 70<=a<=89:
+    print("добре")
+elif 90<=a<=100:
+    print("відмінно")
